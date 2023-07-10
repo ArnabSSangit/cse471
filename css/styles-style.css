@@ -1,11 +1,6 @@
-/* ------------------
-   Adding Fonts 
---------------------*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-/* ---------------------------
-common styles or utilities
------------------------------*/
 html,body{
     width: 100%;
     height: 100%;
@@ -50,9 +45,7 @@ p{
 .link-button:hover{
     background: #ff005d;
 }
-/* -----------------------
-Top Header Styles Start
---------------------------*/
+
 .top-header{
     background: #2D25A0; 
     height: 677px;
@@ -71,7 +64,7 @@ Top Header Styles Start
        background-color: #6DD47E;
     }
 }
-/* Top Navigation Styles Start */
+
 nav{
     padding-top: 42px;
     padding-bottom: 49px;
@@ -93,7 +86,7 @@ nav a{
 nav a:hover{
     text-decoration: underline;
 }
-/* Top Navigation Styles Ends */
+
 .top-banner{
     display: flex;
     justify-content: space-evenly;
@@ -112,13 +105,7 @@ nav a:hover{
     width: 300px;
     height: 300px;
 }
-/*-----------------------
-Top Header Styles End
------------------------*/
 
-/*-----------------------
-Players Section Style Starts
-------------------------------*/
 
 .players{
     margin-top: 70px;
@@ -162,13 +149,7 @@ Players Section Style Starts
     background-color: rgb(197, 5, 28);
 }
 
-/*-----------------------
-Players Section Style Ends
-------------------------------*/
 
-/*-----------------------
-Football Updates Starts
-------------------------------*/
 
 .football-updates{
     display: flex;
@@ -204,15 +185,6 @@ Football Updates Starts
     height: 427px;
 }
 
-/*-----------------------
-Football Updates Ends
-------------------------------*/
-
-
-
-/*----------------------
-Club Style Starts
----------------------- */
 .clubs{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -229,8 +201,7 @@ Club Style Starts
     height: 150px;
     box-shadow: 10px 10px 40px gray;
     border-radius: 12px;
-    /* transition: width 0.2s ease-in-out; */
-}
+   
 .club:hover{
     /* width: 260px;
     height: 180px; */
@@ -252,12 +223,7 @@ Club Style Starts
     height: 80px;
 }
 
-/*----------------------
-Club Style Ends
----------------------- */
 
-
-/* Fixture Style Starts */
 .flexible{
     display: flex;
     flex-direction: column;
@@ -312,12 +278,7 @@ hr{
 #orange-color{
     background-color: orange;
 }
- /* Fixture Style Ends */
 
-
-/*----------------------
-Footer Style Starts
----------------------- */
 footer{
     display: flex;
     flex-direction: column;
@@ -341,11 +302,7 @@ footer p{
     font-style: normal;
 }
 
-/*----------------------
-Footer Style Ends
----------------------- */
 
-/* Media Query For Phone Device */
 
 @media only screen and (max-width: 688px){
     h1{
@@ -354,9 +311,7 @@ Footer Style Ends
     h2{
         font-size: 30px;
     }
-    /* -----------------------
-    Top Header Styles Start
-    --------------------------*/
+    
     .top-header{
         width: 100%;
         height: 695px;
@@ -401,13 +356,7 @@ Footer Style Ends
         width: 329px;
         height: 457px; 
     }
-    /*-----------------------
-    Top Header Styles End
-    -----------------------*/
-
-    /*-----------------------
-    Players Section Style Starts
-    ------------------------------*/
+   
     .players{
         margin-top: 47px;
         display: grid;
@@ -415,13 +364,7 @@ Footer Style Ends
         grid-row-gap: 24px;
         margin-bottom: 60px;
     }
-    /*-----------------------
-    Players Section Style Ends
-    ------------------------------*/
 
-    /*-----------------------
-    Football Updates Starts
-    ------------------------------*/
     .football-updates{
         flex-direction: column;
     }
@@ -443,12 +386,7 @@ Footer Style Ends
         height: 248px;
     }
 
-    /*-----------------------
-    Football Updates Ends
-    ------------------------------*/
-    /*----------------------
-    Popular Highlights Style Starts
-    ---------------------- */
+   
     .highlights-header{
         display: flex;
         flex-direction: column;
@@ -464,13 +402,7 @@ Footer Style Ends
     .match{
         margin-bottom: 20px;
     }
-    /*----------------------
-    Popular Highlights Style Ends
-    ---------------------- */
-
-    /*----------------------
-    Club Style Starts
-    ---------------------- */
+   
     .clubs-header{
         display: flex;
         flex-direction: column;
@@ -489,11 +421,7 @@ Footer Style Ends
     .club{
         margin-bottom: 20px;
     }
-    /*----------------------
-    Club Style Ends
-    ---------------------- */
-
-    /* Fixture Style Starts */
+  
     .fixture-name{
         width: 97%;
     }
@@ -510,12 +438,7 @@ Footer Style Ends
     .fixture p{
         margin-left: 40px;
     }
-     /* Fixture Style Ends */
-
-
-    /*----------------------
-    Footer Style Starts
-    ---------------------- */
+     /
     footer img{
         width: 275.8px;
     }
@@ -536,9 +459,7 @@ Footer Style Ends
     h2{
         font-size: 30px;
     }
-    /* -----------------------
-    Top Header Styles Start
-    --------------------------*/
+   
     .top-header{
         width: 100%;
         height: 500px;
@@ -564,13 +485,7 @@ Footer Style Ends
         width: 400px;
         height: 400.17px; 
     }
-    /*-----------------------
-    Top Header Styles End
-    -----------------------*/
-
-    /*-----------------------
-    Players Section Style Starts
-    ------------------------------*/
+  
     .players{
         margin-top: 47px;
         display: grid;
@@ -578,13 +493,7 @@ Footer Style Ends
         grid-row-gap: 24px;
         margin-bottom: 60px;
     }
-    /*-----------------------
-    Players Section Style Ends
-    ------------------------------*/
-
-    /*-----------------------
-    Football Updates Starts
-    ------------------------------*/
+   
     
     .updates-text{
         width: 329px;
@@ -603,12 +512,7 @@ Footer Style Ends
         height: 248px;
     }
 
-    /*-----------------------
-    Football Updates Ends
-    ------------------------------*/
-    /*----------------------
-    Popular Highlights Style Starts
-    ---------------------- */
+   
     .highlights-header{
         display: flex;
         flex-direction: column;
@@ -624,13 +528,7 @@ Footer Style Ends
     .match{
         margin-bottom: 20px;
     }
-    /*----------------------
-    Popular Highlights Style Ends
-    ---------------------- */
-
-    /*----------------------
-    Club Style Starts
-    ---------------------- */
+  
     .clubs-header{
         display: flex;
         flex-direction: column;
@@ -647,11 +545,7 @@ Footer Style Ends
     .club{
         margin-bottom: 20px;
     }
-    /*----------------------
-    Club Style Ends
-    ---------------------- */
-
-    /* Fixture Style Starts */
+  
     .fixture-header{
         width: 100%;
     }
@@ -664,19 +558,12 @@ Footer Style Ends
     .fixture p{
         margin-left: 40px;
     }
-     /* Fixture Style Ends */
-
-
-    /*----------------------
-    Footer Style Starts
-    ---------------------- */
+     
     footer img{
         width: 275.8px;
     }
     footer p{
         text-align: center;
     }
-    /*----------------------
-    Footer Style Starts
-    ---------------------- */
+   
 }
